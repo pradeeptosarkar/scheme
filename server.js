@@ -211,7 +211,7 @@ app.get('/', requireLogin, async (req, res) => {
   }
 });
 app.get('/new-page', requireLogin, (req, res) => {
-  res.redirect('https://example.com/another-page');
+  res.redirect('https://vishesh-final.onrender.com');
 });
 app.post('/logout', (req, res) => {
   // Destroy the session on logout
